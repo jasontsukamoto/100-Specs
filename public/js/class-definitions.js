@@ -4,7 +4,7 @@
  * then set it's value to null;
  *
  */
-
+var unicorn = null;
 
 /* Step 2
  *
@@ -12,6 +12,7 @@
  * then assign it to be the value of "Atari"
  *
  */
+ var videogame_system = 'Atari';
 
 
 /* Step 3
@@ -20,6 +21,7 @@
  * and assign the value of sahara_animal to "The Addax"
  *
  */
+ var sahara_animal = 'The Addax';
 
 
 /* Step 4
@@ -29,6 +31,7 @@
  * each planet in our solar system, in order of distance from the sun
  * Capitalize the names.
  */
+ var planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 
 
 /* Step 5
@@ -38,6 +41,7 @@
  * each galilean moon of Jupiter
  *
  */
+ var galilean_moons = ['io', 'europa', 'ganymede', 'callisto'];
 
 
 /* Step 6 φ
@@ -46,7 +50,7 @@
  * and assign the value of golden_ratio to 1.61803398874
  *
  */
-
+var golden_ratio = 1.61803398874;
 
 /* Step 7
  *
@@ -54,6 +58,7 @@
  * and assign the value of earths_water_composition to 0.71
  *
  */
+ var earths_water_composition = 0.71;
 
 
 /* Step 8
@@ -62,7 +67,7 @@
  * and assign the value of club_name to "Fight Club"
  *
  */
-
+var club_name = 'Fight Club';
 
 /* Step 9
  *
@@ -73,7 +78,11 @@
  *   male    => "male"
  *   unknown => undefined
  */
-
+var gender = {
+  female : 'female',
+  male : 'male',
+  unknown : undefined
+};
 
 /* Step 10
  *
@@ -87,7 +96,12 @@
  *   gender  => gender.female
  *
  */
-
+var princess_leia = {
+  name : 'Leia Organa',
+  money : 890,
+  age : 20,
+  gender : gender.female
+};
 
 /* Step 11
  *
@@ -100,7 +114,12 @@
  *   jsonformatter.curiousconcept.com => "104.28.5.70"
  *
  */
-
+var domains = {
+  'ycombinator.com' : '198.41.190.47',
+  'laughingsquid.com' : '162.159.247.97',
+  'slumlordhosting.com' : '198.61.179.126',
+  'jsonformatter.curiousconcept.com' : '104.28.5.70'
+};
 
 /* Step 12
  *
@@ -115,6 +134,14 @@
  *   Konqueror  => "konqueror.org"
  *
  */
+var browsers = {
+  Chromium: "google.com",
+  Safari : "apple.com",
+  Opera : "opera.com",
+  Firefox : "mozilla.org",
+  Sleipnir : "fenrir-inc.com",
+  Konqueror : "konqueror.org"
+};
 
 
 /* Step 13
@@ -133,7 +160,19 @@
  *  isDouble  => true
  *
  */
+var rainbow = {
+  colors : {
+    red : "#F0280A",
+    orange : "#FF8800",
+    yellow : "#FFDD00",
+    green : "#51AB0C",
+    blue : "#1593ED",
+    indigo : "#5215ED",
+    violet : "#A915ED"
+  },
+  isDouble : true
 
+};
 
 /* Step 14
  *
@@ -148,7 +187,7 @@
  * "Bieber Linux"
  *
  */
-
+var linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
 
 /* Step 15
  *
@@ -162,6 +201,7 @@
  * "cytosine"
  *
  */
+ var DNA = ["nucleatides", "guanine", "adenine", "thymine", "cytosine"];
 
 
 /* Step 16
@@ -175,7 +215,12 @@
  * Surface      => 320
  *
  */
-
+var laptopCosts = {
+  MacBook : 1500,
+  Alienware: 2500,
+  HP : 499,
+  Surface : 320
+};
 
 /* Step 17
  *
@@ -191,6 +236,7 @@
  * "Species"
  *
  */
+ var livingOrganismClassification = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"];
 
 
 /* Step 18
@@ -205,7 +251,7 @@
  * "cvs"
  *
  */
-
+var scmList = ["git", "svn", "mercurial", "bazaar", "cvs"];
 
 /* Step 19
  *
@@ -224,6 +270,14 @@
  *                  "Golden"
  *
  */
+var beers = {
+  IPA : 'Ale',
+  Lager : 'Strong',
+  Heffeweisen : 'German',
+  Stout : ['Thick', 'Dark'],
+  Porter : 'Bitter',
+  Ale : ['Light', 'Golden']
+};
 
 
 /* Step 20
@@ -234,7 +288,9 @@
  * @return {String}
  *
  */
-
+function sahara_river () {
+  return 'Nile River';
+}
 
 /* Step 21
  *
@@ -246,7 +302,9 @@
  * @return {Number}
  *
  */
-
+function addNumbers (num1, num2) {
+  return num1 + num2;
+}
 
 /* Step 22
  *
@@ -259,7 +317,13 @@
  * @return {Bool}
  *
  */
-
+function installLinux(string) {
+  if (linuxFlavors.indexOf(string) !== -1) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /* Step 23
  *
@@ -278,7 +342,18 @@
  * @return {Bool when False, String when True}
  *
  */
+function drink(beer) {
+  if (beers.hasOwnProperty(beer)) {
+    if(beers[beer] instanceof Array) {
+        return 'This ' + beer + ' is ' + beers[beer][0] + ' and ' + beers[beer][1] + '.';
 
+    } else {
+        return 'This ' + beer + ' is ' + beers[beer] +'.';
+    }
+  } else {
+    return false;
+  }
+}
 
 /* Step 24
  *
@@ -291,7 +366,13 @@
  * @return {String if true else return false}
  *
  */
-
+function browseURL(browser) {
+  if(browsers.hasOwnProperty(browser)) {
+    return browsers[browser];
+  } else {
+    return false;
+  }
+}
 
 /* Step 25
  *
@@ -302,7 +383,9 @@
  * @return {String}
  *
  */
-
+function listLivingOrgClass() {
+  return '<ul><li>' + livingOrganismClassification + '</li></ul>';
+}
 
 /* Step 26
  *
@@ -323,7 +406,14 @@
  * @return {String}
  *
  */
-
+function favoritePlanet(planet) {
+  if(planets.indexOf(planet) !== -1) {
+    var index = Math.floor(Math.random() * 8 + 0);
+    return 'I\'m from ' + planet + ', but I wish I could go to ' + planets[index] + '.';
+  } else {
+    return planet + ' is not a planet!';
+  }
+}
 
 /* Step 27
  *
@@ -347,7 +437,20 @@
  *   earnMoney
  *
  */
+ function Person(name, money, age, gender) {
+  this.name = name;
+  this.money = money;
+  this.age = age;
+  this.gender = gender;
+ }
 
+ Person.prototype.spendMoney = function(money) {
+  return this.money -= money;
+ };
+
+ Person.prototype.earnMoney = function(money) {
+  return this.money += money;
+ };
 
 /* Step 28
  *
@@ -360,7 +463,13 @@
  * @return {String}
  *
  */
-
+function purchaseLaptop(laptop) {
+  if(laptopCosts.hasOwnProperty(laptop)) {
+    return laptopCosts[laptop] +'';
+  } else {
+    return -1;
+  }
+}
 
 /* Step 29
  *
@@ -373,7 +482,13 @@
  * @return {Bool}
  *
  */
-
+function canTalkAbout(club) {
+  if (club === club_name) {
+    return false;
+  } else {
+    return true;
+  }
+}
 
 /* Step 30
  *
@@ -395,7 +510,13 @@
  *   write
  *
  */
+function Pen(color) {
+  this.color = color;
+}
 
+Pen.prototype.write = function(message) {
+  return this.color + ': ' + message;
+};
 
 /* Step 31
  *
@@ -423,7 +544,22 @@
  *   grow
  *
  */
+function Garden(plantsTotal, isWatered) {
+  this.plantsTotal = plantsTotal;
+  this.isWatered = false;
+}
 
+Garden.prototype.water = function() {
+  return this.isWatered = true;
+};
+
+Garden.prototype.grow = function() {
+  if (this.isWatered === false) {
+    return false;
+  } else {
+    this.plantsTotal++;
+  }
+};
 
 /* Step 32
  *
@@ -441,7 +577,16 @@
  *   removePlanet
  *
  */
+function SolarSystem() {
+  this.planets = [];
+}
 
+SolarSystem.prototype.addPlanet = function(planet) {
+  this.planets.push(planet);
+};
+SolarSystem.prototype.removePlanet = function(planet) {
+  this.planets.pop();
+};
 
 /* Step 33
  *
@@ -475,6 +620,31 @@
  *   marries
  *
  */
+function PrincessLeia(name, money, age, gender, isInTrouble) {
+  Person.call(this, name, money, age, gender);
+  this.isInTrouble = null;
+}
+PrincessLeia.prototype = Object.create(Person.prototype, {
+  constructor: {
+    value: Person
+  }
+});
+PrincessLeia.prototype.shootsGun = function() {
+  this.isInTrouble = false;
+  return 'Leia shoots her gun wildly';
+};;
+PrincessLeia.prototype.getsInTrouble = function() {
+  this.isInTrouble = true;
+  return 'Help me Obi-wan Kenobi, you\'re my only hope';
+};
+PrincessLeia.prototype.marries = function(name) {
+  if(name === 'Han Solo') {
+    return true;
+  } else {
+    return 'Gross!';
+  }
+};
+
 
 
 /* Step 34
@@ -494,7 +664,17 @@
  *   staplePapers
  *
  */
-
+function Stapler(color, maxPapers) {
+  this.color = color;
+  this.maxPapers = maxPapers;
+}
+Stapler.prototype.staplePapers = function(paper) {
+  if(paper <= this.maxPapers) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 /* Step 35
  *
@@ -534,8 +714,40 @@
  *   addDiscovery
  *
  */
+function Scientist(name, money, age, gender, disciplines, discoveries) {
+  Person.call(this, name, money, age, gender);
+  this.disciplines = [];
+  this.discoveries = [];
+}
+Scientist.prototype = Object.create(Person.prototype, {
+  constructor: {
+    value: Person
+  }
+});
 
+Scientist.prototype.addDiscipline = function(discipline) {
+  this.disciplines.push(discipline);
+  return this.disciplines;
+};
 
+Scientist.prototype.checkDiscipline = function(discipline) {
+  if(this.disciplines.indexOf(discipline) !== -1) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+Scientist.prototype.addDiscovery = function(discoveries) {
+  this.discoveries.push(discoveries);
+  if (this.discoveries.length === 1) {
+    return 'I discovered ' + this.discoveries + '.';
+  } else if (this.discoveries.length === 2) {
+    return 'I discovered ' + this.discoveries[0] + ' and ' + this.discoveries[1] + '.';
+  } else {
+    return 'I discovered ' + this.discoveries[0] + ', ' + this.discoveries[1] + ', and ' + this.discoveries[2] + '.';
+  }
+};
 /* Step 36
  *
  * Define a class named "BankAccount" that has properties
@@ -729,7 +941,10 @@
  * @param {string} species The animal species
  * @param {string} gender  male or female
  */
-
+function Animal(species, gender) {
+  this.species = species;
+  this.gender = gender;
+}
 
 /**
  * Step 51
@@ -738,7 +953,10 @@
  * @param {string} make The vehicle's make
  * @param {string} model The vehicle's model
  */
-
+function Vehicle(make, model) {
+  this.make = make;
+  this.model = model;
+};
 
 /**
  * Step 52
@@ -749,7 +967,13 @@
  * value of the sides property to null.
  *
  */
-
+function Shape(sides){
+  if(sides >= 3) {
+    this.sides = sides;
+  } else {
+    this.sides = null;
+  }
+}
 
 /**
  * Step 53
@@ -758,7 +982,10 @@
  * @param {anything} contents The contents of the box
  * @param {boolean} isOpen     Whether the box is opened or closed
  */
-
+function Box(contents, isOpen) {
+  this.contents = contents;
+  this.isOpen = isOpen;
+}
 
 /**
  * Step 54
@@ -766,7 +993,9 @@
  * Door class
  * @param {boolean} isOpen Whether the door is opened or closed
  */
-
+function Door(isOpen) {
+  this.isOpen = isOpen;
+}
 
 /**
  * Step 55
@@ -775,7 +1004,10 @@
  * @param {number} size  The shoe size
  * @param {string} color The shoe color
  */
-
+function Shoe(size, color) {
+  this.size = size;
+  this.color = color;
+}
 
 /**
  * Step 56
@@ -783,7 +1015,9 @@
  * House class
  * @param {number} stories How many stories tall the house is
  */
-
+function House(stories) {
+  this.stories = stories;
+}
 
 /**
  * Step 57
@@ -791,7 +1025,9 @@
  * Lightbulb class
  * @param {boolean} isOn Whether the light is on or off
  */
-
+function Lightbulb(isOn) {
+  this.isOn = isOn;
+}
 
 /**
  * Step 58
@@ -799,7 +1035,9 @@
  * Cookie class
  * @param {string} flavor The cookie's flavor
  */
-
+function Cookie(flavor) {
+  this.flavor = flavor;
+}
 
 /**
  * Step 59
@@ -807,7 +1045,12 @@
  * Meal class
  * @param {Array} foods All the foods in the meal
  */
-
+function Meal(args) {
+  this.foods = [];
+  for (var i = 0; i < arguments.length; i++) {
+    this.foods.push(arguments[i]);
+  }
+}
 
 /**
  * Create a new instance of the Classes you defined above, below!
@@ -816,44 +1059,45 @@
 
 
 // Create 2 different species of animals
-var george;
-var nemo;
+var george = new Animal('Monkey', 'male');
+var nemo = new Animal('Fish', 'male');
 
 // Create 2 different vehicles
-var civic;
-var forte;
+var civic = new Vehicle('Honda', 'Civic');
+var forte = new Vehicle('KIA', 'Forte');
 
 // Create 2 shapes with different numbers of sides
-var square;
-var hexagon;
+var square = new Shape(4);
+var hexagon = new Shape(6);
 
 // Create 2 boxes
-var catBox;
-var christmasPresent;
+var cat = new Animal('Cat', 'male');
+var catBox = new Box(cat, true);
+var christmasPresent = new Box('christmasPresent', false);
 
 // Create 2 doors
-var automaticDoor;
-var bankVault;
+var automaticDoor = new Door(true);
+var bankVault = new Door(false);
 
 // Create 2 shoes
-var rubySlippers;
-var dressShoes;
+var rubySlippers = new Shoe(7, 'red');
+var dressShoes = new Shoe(10, 'black');
 
 // Create 2 houses
-var singleStory;
-var twoStory;
+var singleStory = new House(1);
+var twoStory = new House(2);
 
 // Create 2 lightbulbs
-var incandescent;
-var halogen;
+var incandescent = new Lightbulb(true);
+var halogen = new Lightbulb(false);
 
 // Create 2 cookies of different flavors
-var chocolateChip;
-var gingerbread;
+var chocolateChip = new Cookie('chocolate');
+var gingerbread = new Cookie('gingerbread');
 
 // Create 2 different meals
-var breakfast;
-var dinner;
+var breakfast = new Meal('cereal', 'milk');
+var dinner = new Meal('fish', 'vegetables');
 
 
  /* Steps 81 to 90
@@ -877,7 +1121,15 @@ var dinner;
  *       Any other species => "Could not determine if warm-blooded"
  *
  */
-
+Animal.prototype.isWarmBlooded = function() {
+  if(this.species === 'Monkey' || this.species === 'Bird') {
+    return true;
+  } else if(this.species === 'Fish') {
+    return false;
+  } else {
+    return 'Could not determine if warm-blooded';
+  }
+};
 
 /* Step 82
  *
@@ -886,7 +1138,13 @@ var dinner;
  * return "Driving on {streetName}", else return "Driving forward".
  *
  */
-
+Vehicle.prototype.drive = function(streetName) {
+  if (typeof streetName === 'string' && streetName.length > 0) {
+    return 'Driving on ' + streetName;
+  } else {
+    return 'Driving forward'
+  }
+};
 
  /* Step 83
  *
@@ -905,7 +1163,27 @@ var dinner;
  * Any other number => "Could not determine type"
  *
  */
-
+Shape.prototype.getType = function() {
+  if (this.sides === 3) {
+    return 'triangle';
+  } else if (this.sides === 4) {
+    return 'quadrilateral';
+  } else if (this.sides === 5) {
+    return 'pentagon';
+  } else if (this.sides === 6) {
+    return 'hexagon';
+  } else if (this.sides === 7) {
+    return 'heptagon';
+  } else if (this.sides === 8) {
+    return 'octagon';
+  } else if (this.sides === 9) {
+    return 'nonagon';
+  } else if (this.sides === 10) {
+    return 'decagon';
+  } else {
+    return 'Could not determine type';
+  }
+};
 
 /* Step 84
  *
@@ -915,7 +1193,14 @@ var dinner;
  * Return true if openBox opens the box, false otherwise.
  *
  */
-
+Box.prototype.openBox = function() {
+  if(!this.isOpen) {
+    this.isOpen = true;
+    return true;
+  } else {
+    return false;
+  }
+};
 
  /* Step 85
  *
