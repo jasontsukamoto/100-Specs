@@ -1325,8 +1325,8 @@ var notWarmOrColdAnimal = fred.isWarmBlooded();
  * and assign the values to each variable below.
  *
  */
-var streetDriving = civic.drive();
-var forwardDriving = forte.drive();
+var streetDriving = civic.drive('Puali');
+var forwardDriving = forte.drive(8);
 
 
  /* Step 93
@@ -1335,8 +1335,11 @@ var forwardDriving = forte.drive();
  * and assign the values to each variable below.
  *
  */
-var decagon;
-var polygon;
+var deca = new Shape(10);
+var decagon = deca.getType();
+
+var poly = new Shape(15)
+var polygon = poly.getType(15);
 
 
 /* Step 94
@@ -1345,8 +1348,10 @@ var polygon;
  * and assign the values to each variable below.
  *
  */
-var openAClosedBox;
-var closeAnOpenBox;
+var pandora = new Box('secret', false);
+var openAClosedBox =pandora.openBox();
+var box = new Box('apple', true);
+var closeAnOpenBox = box.openBox();
 
 
  /* Step 95
@@ -1355,8 +1360,10 @@ var closeAnOpenBox;
  * and assign the values to each variable below.
  *
  */
-var openAClosedDoor;
-var closeAnOpenDoor;
+var open = new Door(false);
+var shut = new Door(true);
+var openAClosedDoor = open.openClose();
+var closeAnOpenDoor = shut.openClose();
 
 
 /* Step 96
@@ -1365,8 +1372,8 @@ var closeAnOpenDoor;
  * and assign the values to each variable below.
  *
  */
-var redShoesSize7;
-var blackShoesSize10;
+var redShoesSize7 = rubySlippers.findShoes();
+var blackShoesSize10 = dressShoes.findShoes();
 
 
  /* Step 97
@@ -1375,8 +1382,9 @@ var blackShoesSize10;
  * and assign the values to each variable below.
  *
  */
-var farTooTallAStory;
-var shortStory;
+
+var farTooTallAStory = twoStory.isATallStory(1);
+var shortStory = singleStory.isATallStory();
 
 
  /* Step 98
@@ -1385,8 +1393,8 @@ var shortStory;
  * and assign the values to each variable below.
  *
  */
-var kitchenLightsOn;
-var porchLightsOff;
+var kitchenLightsOn = incandescent.flipSwitch('on');
+var porchLightsOff = halogen.flipSwitch();
 
 
  /* Step 99
@@ -1395,8 +1403,8 @@ var porchLightsOff;
  * and assign the values to each variable below.
  *
  */
-var cookieMonsterPwns;
-var cookieMonsterBlocked;
+var cookieMonsterPwns = chocolateChip.swipedByCookieMonster('Monday');
+var cookieMonsterBlocked = gingerbread.swipedByCookieMonster();
 
 
  /* Step 100
@@ -1405,5 +1413,6 @@ var cookieMonsterBlocked;
  * and assign the values to each variable below.
  *
  */
-var badForYou;
-var goodForYou;
+var doritos = new Meal('chips');
+var badForYou = doritos.containsJunkFood();
+var goodForYou = breakfast.containsJunkFood();
