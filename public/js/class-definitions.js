@@ -1045,11 +1045,8 @@ function Cookie(flavor) {
  * Meal class
  * @param {Array} foods All the foods in the meal
  */
-function Meal(args) {
-  this.foods = [];
-  for (var i = 0; i < arguments.length; i++) {
-    this.foods.push(arguments[i]);
-  }
+function Meal(foods) {
+  this.foods = foods;
 }
 
 /**
@@ -1096,8 +1093,8 @@ var chocolateChip = new Cookie('chocolate');
 var gingerbread = new Cookie('gingerbread');
 
 // Create 2 different meals
-var breakfast = new Meal('cereal', 'milk');
-var dinner = new Meal('fish', 'vegetables');
+var breakfast = new Meal(['cereal', 'milk']);
+var dinner = new Meal(['fish', 'vegetables']);
 
 
  /* Steps 81 to 90
@@ -1209,7 +1206,15 @@ Box.prototype.openBox = function() {
  * Return true if openClose opens the door, false if openClose closes the door.
  *
  */
-
+Door.prototype.openClose = function() {
+  if (this.isOpen === false) {
+    this.isOpen = true;
+    return true;
+  } else {
+    this.isOpen = false;
+    return false;
+  }
+};
 
 /* Step 86
  *
@@ -1217,7 +1222,9 @@ Box.prototype.openBox = function() {
  * the color and size of the shoe ("Found red shoes of size 7").
  *
  */
-
+Shoe.prototype.findShoes = function() {
+  return 'Found ' + this.color + ' shoes of size ' + this.size;
+};
 
  /* Step 87
  *
@@ -1227,7 +1234,13 @@ Box.prototype.openBox = function() {
  * storiesTooTall, return true, else return false.
  *
  */
-
+House.prototype.isATallStory = function(storiesTooTall) {
+  if(this.stories >= storiesTooTall) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
  /* Step 88
  *
@@ -1238,7 +1251,15 @@ Box.prototype.openBox = function() {
  * Return true if isOn is true, false otherwise.
  *
  */
-
+Lightbulb.prototype.flipSwitch = function(on) {
+  if (on === 'on') {
+    this.isOn = true;
+    return true;
+  } else {
+    this.isOn = false;
+    return false;
+  }
+}
 
  /* Step 89
  *
@@ -1247,7 +1268,13 @@ Box.prototype.openBox = function() {
  * and the dayOfTheWeek is "Monday", return true.  Else return false.
  *
  */
-
+Cookie.prototype.swipedByCookieMonster = function(dayOfTheWeek) {
+  if(this.flavor === 'chocolate' && dayOfTheWeek === 'Monday') {
+    return true;
+  } else {
+    return false;
+  }
+};
 
  /* Step 90
  *
@@ -1262,7 +1289,16 @@ Box.prototype.openBox = function() {
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
  *
  */
-
+Meal.prototype.containsJunkFood = function() {
+  var junkFood = ['chips', 'soda', 'ice cream', 'popcorn', 'candy'];
+  for(var i = 0; i < junkFood.length; i++) {
+    if (this.foods.indexOf(junkFood[i]) !== -1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+};
 
  /* Steps 91 to 100
  *
@@ -1277,9 +1313,10 @@ Box.prototype.openBox = function() {
  * and assign the values to each variable below.
  *
  */
-var warmBloodedAnimal;
-var coldBloodedAnimal;
-var notWarmOrColdAnimal;
+var warmBloodedAnimal = george.isWarmBlooded();
+var coldBloodedAnimal = nemo.isWarmBlooded();
+var fred = new Animal('lizard', 'male');
+var notWarmOrColdAnimal = fred.isWarmBlooded();
 
 
 /* Step 92
@@ -1288,8 +1325,8 @@ var notWarmOrColdAnimal;
  * and assign the values to each variable below.
  *
  */
-var streetDriving;
-var forwardDriving;
+var streetDriving = civic.drive();
+var forwardDriving = forte.drive();
 
 
  /* Step 93
