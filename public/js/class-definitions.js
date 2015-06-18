@@ -1,6 +1,6 @@
 /* Step 1
  *
- * Declare a variable named "unicorn"
+ * Declare a variable named 'unicorn'
  * then set it's value to null;
  *
  */
@@ -8,45 +8,45 @@ var unicorn = null;
 
 /* Step 2
  *
- * Declare a variable named "videogame_system"
- * then assign it to be the value of "Atari"
+ * Declare a variable named 'videogame_system'
+ * then assign it to be the value of 'Atari'
  *
  */
- var videogame_system = 'Atari';
+var videogame_system = 'Atari';
 
 
 /* Step 3
  *
- * Declare a variable named "sahara_animal"
- * and assign the value of sahara_animal to "The Addax"
+ * Declare a variable named 'sahara_animal'
+ * and assign the value of sahara_animal to 'The Addax'
  *
  */
- var sahara_animal = 'The Addax';
+var sahara_animal = 'The Addax';
 
 
 /* Step 4
  *
- * Declare a variable named "planets"
+ * Declare a variable named 'planets'
  * and assign the value of planets to an array containing
  * each planet in our solar system, in order of distance from the sun
  * Capitalize the names.
  */
- var planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
+var planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 
 
 /* Step 5
  *
- * Declare a variable named "galilean_moons"
+ * Declare a variable named 'galilean_moons'
  * and assign the value of galilean_moons to an array containing
  * each galilean moon of Jupiter
  *
  */
- var galilean_moons = ['io', 'europa', 'ganymede', 'callisto'];
+var galilean_moons = ['io', 'europa', 'ganymede', 'callisto'];
 
 
 /* Step 6 φ
  *
- * Declare a variable named "golden_ratio"
+ * Declare a variable named 'golden_ratio'
  * and assign the value of golden_ratio to 1.61803398874
  *
  */
@@ -54,28 +54,28 @@ var golden_ratio = 1.61803398874;
 
 /* Step 7
  *
- * Declare a variable named "earths_water_composition"
+ * Declare a variable named 'earths_water_composition'
  * and assign the value of earths_water_composition to 0.71
  *
  */
- var earths_water_composition = 0.71;
+var earths_water_composition = 0.71;
 
 
 /* Step 8
  *
- * Declare a variable named "club_name"
- * and assign the value of club_name to "Fight Club"
+ * Declare a variable named 'club_name'
+ * and assign the value of club_name to 'Fight Club'
  *
  */
 var club_name = 'Fight Club';
 
 /* Step 9
  *
- * Define a literal object named "gender"
+ * Define a literal object named 'gender'
  * with properties and values set to:
  *
- *   female  => "female"
- *   male    => "male"
+ *   female  => 'female'
+ *   male    => 'male'
  *   unknown => undefined
  */
 var gender = {
@@ -87,10 +87,10 @@ var gender = {
 /* Step 10
  *
  *
- * Define a literal object named "princess_leia"
+ * Define a literal object named 'princess_leia'
  * with properties and values set to:
  *
- *   name    => "Leia Organa"
+ *   name    => 'Leia Organa'
  *   money   => 890
  *   age     => 20
  *   gender  => gender.female
@@ -105,13 +105,13 @@ var princess_leia = {
 
 /* Step 11
  *
- * Define a literal object named "domains"
+ * Define a literal object named 'domains'
  * with properties and values set to:
  *
- *   ycombinator.com                  => "198.41.190.47"
- *   laughingsquid.com                => "162.159.247.97"
- *   slumlordhosting.com              => "198.61.179.126"
- *   jsonformatter.curiousconcept.com => "104.28.5.70"
+ *   ycombinator.com                  => '198.41.190.47'
+ *   laughingsquid.com                => '162.159.247.97'
+ *   slumlordhosting.com              => '198.61.179.126'
+ *   jsonformatter.curiousconcept.com => '104.28.5.70'
  *
  */
 var domains = {
@@ -123,52 +123,52 @@ var domains = {
 
 /* Step 12
  *
- * Define a literal object named "browsers"
+ * Define a literal object named 'browsers'
  * with properties and values set to:
  *
- *   Chromium   => "google.com"
- *   Safari     => "apple.com"
- *   Opera      => "opera.com"
- *   Firefox    => "mozilla.org"
- *   Sleipnir   => "fenrir-inc.com"
- *   Konqueror  => "konqueror.org"
+ *   Chromium   => 'google.com'
+ *   Safari     => 'apple.com'
+ *   Opera      => 'opera.com'
+ *   Firefox    => 'mozilla.org'
+ *   Sleipnir   => 'fenrir-inc.com'
+ *   Konqueror  => 'konqueror.org'
  *
  */
 var browsers = {
-  Chromium: "google.com",
-  Safari : "apple.com",
-  Opera : "opera.com",
-  Firefox : "mozilla.org",
-  Sleipnir : "fenrir-inc.com",
-  Konqueror : "konqueror.org"
+  Chromium : 'google.com',
+  Safari : 'apple.com',
+  Opera : 'opera.com',
+  Firefox : 'mozilla.org',
+  Sleipnir : 'fenrir-inc.com',
+  Konqueror : 'konqueror.org'
 };
 
 
 /* Step 13
  *
- * Define a literal object named "rainbow"
+ * Define a literal object named 'rainbow'
  * with properties and values set to:
  *
  *  colors    => [LITERAL OBJECT]
- *                  red       => "#F0280A"
- *                  orange    => "#FF8800"
- *                  yellow    => "#FFDD00"
- *                  green     => "#51AB0C"
- *                  blue      => "#1593ED"
- *                  indigo    => "#5215ED"
- *                  violet    => "#A915ED"
+ *                  red       => '#F0280A'
+ *                  orange    => '#FF8800'
+ *                  yellow    => '#FFDD00'
+ *                  green     => '#51AB0C'
+ *                  blue      => '#1593ED'
+ *                  indigo    => '#5215ED'
+ *                  violet    => '#A915ED'
  *  isDouble  => true
  *
  */
 var rainbow = {
   colors : {
-    red : "#F0280A",
-    orange : "#FF8800",
-    yellow : "#FFDD00",
-    green : "#51AB0C",
-    blue : "#1593ED",
-    indigo : "#5215ED",
-    violet : "#A915ED"
+    red : '#F0280A',
+    orange : '#FF8800',
+    yellow : '#FFDD00',
+    green : '#51AB0C',
+    blue : '#1593ED',
+    indigo : '#5215ED',
+    violet : '#A915ED'
   },
   isDouble : true
 
@@ -176,37 +176,37 @@ var rainbow = {
 
 /* Step 14
  *
- * Declare an array named "linuxFlavors"
+ * Declare an array named 'linuxFlavors'
  * with the following values:
  *
- * "Gentoo"
- * "Fedora"
- * "Debian"
- * "Slackware"
- * "Red Hat"
- * "Bieber Linux"
+ * 'Gentoo'
+ * 'Fedora'
+ * 'Debian'
+ * 'Slackware'
+ * 'Red Hat'
+ * 'Bieber Linux'
  *
  */
 var linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
 
 /* Step 15
  *
- * Declare an array named "DNA" with the
+ * Declare an array named 'DNA' with the
  * following values:
  *
- * "nucleatides"
- * "guanine"
- * "adenine"
- * "thymine"
- * "cytosine"
+ * 'nucleatides'
+ * 'guanine'
+ * 'adenine'
+ * 'thymine'
+ * 'cytosine'
  *
  */
- var DNA = ["nucleatides", "guanine", "adenine", "thymine", "cytosine"];
+var DNA = ['nucleatides', 'guanine', 'adenine', 'thymine', 'cytosine'];
 
 
 /* Step 16
  *
- * Define a literal object named "laptopCosts"
+ * Define a literal object named 'laptopCosts'
  * with properties and values set to:
  *
  * MacBook      => 1500
@@ -217,57 +217,57 @@ var linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Biebe
  */
 var laptopCosts = {
   MacBook : 1500,
-  Alienware: 2500,
+  Alienware : 2500,
   HP : 499,
   Surface : 320
 };
 
 /* Step 17
  *
- * Declare an array named "livingOrganismClassification"
+ * Declare an array named 'livingOrganismClassification'
  * with the following values:
  *
- * "Kingdom"
- * "Phylum"
- * "Class"
- * "Order"
- * "Family"
- * "Genus"
- * "Species"
+ * 'Kingdom'
+ * 'Phylum'
+ * 'Class'
+ * 'Order'
+ * 'Family'
+ * 'Genus'
+ * 'Species'
  *
  */
- var livingOrganismClassification = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"];
+var livingOrganismClassification = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species'];
 
 
 /* Step 18
  *
- * Declare an array named "scmList" with
+ * Declare an array named 'scmList' with
  * the following values:
  *
- * "git"
- * "svn"
- * "mercurial"
- * "bazaar"
- * "cvs"
+ * 'git'
+ * 'svn'
+ * 'mercurial'
+ * 'bazaar'
+ * 'cvs'
  *
  */
-var scmList = ["git", "svn", "mercurial", "bazaar", "cvs"];
+var scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
 
 /* Step 19
  *
- * Define a literal object named "beers" with
+ * Define a literal object named 'beers' with
  * properties and values set to:
  *
- * IPA          => "Ale"
- * Lager        => "Strong"
- * Heffeweisen  => "German"
+ * IPA          => 'Ale'
+ * Lager        => 'Strong'
+ * Heffeweisen  => 'German'
  * Stout        => [Array]
- *                  "Thick"
- *                  "Dark"
- * Porter       => "Bitter"
+ *                  'Thick'
+ *                  'Dark'
+ * Porter       => 'Bitter'
  * Ale          => [Array]
- *                  "Light"
- *                  "Golden"
+ *                  'Light'
+ *                  'Golden'
  *
  */
 var beers = {
@@ -294,7 +294,7 @@ function sahara_river () {
 
 /* Step 21
  *
- * Define a function named "addNumbers"
+ * Define a function named 'addNumbers'
  * that returns the sum of two numbers
  *
  * @param {Number}
@@ -308,9 +308,9 @@ function addNumbers (num1, num2) {
 
 /* Step 22
  *
- * Define a function named "installLinux"
+ * Define a function named 'installLinux'
  * that takes a type of Linux as a parameter,
- * checks if it exists in "linuxFlavors" and
+ * checks if it exists in 'linuxFlavors' and
  * returns success or failure
  *
  * @param {String}
@@ -327,16 +327,16 @@ function installLinux(string) {
 
 /* Step 23
  *
- * Define a function named "drink" that takes
+ * Define a function named 'drink' that takes
  * a type of beer as a paramater. If it is not
- * a valid type of beer as defined in "beers",
+ * a valid type of beer as defined in 'beers',
  * return false. If it is valid, return the following phrases:
  *
- * "This {beerName} is {beerDescription}."
+ * 'This {beerName} is {beerDescription}.'
  *
  * Or, if there are multiple descriptions:
  *
- * "This {beerName is {beerDescription1} and {beerDescription2} and..."
+ * 'This {beerName is {beerDescription1} and {beerDescription2} and...'
  *
  * @param {String}
  * @return {Bool when False, String when True}
@@ -344,11 +344,10 @@ function installLinux(string) {
  */
 function drink(beer) {
   if (beers.hasOwnProperty(beer)) {
-    if(beers[beer] instanceof Array) {
-        return 'This ' + beer + ' is ' + beers[beer][0] + ' and ' + beers[beer][1] + '.';
-
+    if (beers[beer] instanceof Array) {
+      return 'This ' + beer + ' is ' + beers[beer][0] + ' and ' + beers[beer][1] + '.';
     } else {
-        return 'This ' + beer + ' is ' + beers[beer] +'.';
+      return 'This ' + beer + ' is ' + beers[beer] + '.';
     }
   } else {
     return false;
@@ -357,8 +356,8 @@ function drink(beer) {
 
 /* Step 24
  *
- * Define a function named "browseURL" that takes
- * a browser and validates it, as defined by "browsers"
+ * Define a function named 'browseURL' that takes
+ * a browser and validates it, as defined by 'browsers'
  * If the browser doesn't exist, return false.
  * If the browser exists, return the value which is a partial URL.
  *
@@ -367,7 +366,7 @@ function drink(beer) {
  *
  */
 function browseURL(browser) {
-  if(browsers.hasOwnProperty(browser)) {
+  if (browsers.hasOwnProperty(browser)) {
     return browsers[browser];
   } else {
     return false;
@@ -376,7 +375,7 @@ function browseURL(browser) {
 
 /* Step 25
  *
- * Define a function named "listLivingOrgClass" that
+ * Define a function named 'listLivingOrgClass' that
  * returns an HTML-formatted unordered list (<ul>) of all
  * living organism classifications as an list element(<li>)
  *
@@ -389,25 +388,25 @@ function listLivingOrgClass() {
 
 /* Step 26
  *
- * Define a function named "favoritePlanet" that
+ * Define a function named 'favoritePlanet' that
  * takes in the person's current planet and validates
  * that the planet exists. If it doesn't, return the
  * following message:
  *
- * "{currentPlanet} is not a planet!"
+ * '{currentPlanet} is not a planet!'
  *
  * If the planet does exist, select a different, random
- * planet from the "planets" variable. Once selected,
+ * planet from the 'planets' variable. Once selected,
  * return the following message:
  *
- * "I'm from {currentPlanet}, but I wish I could go to {randomPlanet}."
+ * 'I'm from {currentPlanet}, but I wish I could go to {randomPlanet}.'
  *
  * @param {String}
  * @return {String}
  *
  */
 function favoritePlanet(planet) {
-  if(planets.indexOf(planet) !== -1) {
+  if (planets.indexOf(planet) !== -1) {
     var index = Math.floor(Math.random() * 8 + 0);
     return 'I\'m from ' + planet + ', but I wish I could go to ' + planets[index] + '.';
   } else {
@@ -417,10 +416,10 @@ function favoritePlanet(planet) {
 
 /* Step 27
  *
- * Define a class named "Person" that has properties for
- * "name," "money," "age," and "gender." Pass values for
+ * Define a class named 'Person' that has properties for
+ * 'name,' 'money,' 'age,' and 'gender.' Pass values for
  * all these properies in the constructor. Create methods
- * named "spendMoney" and "earnMoney" that each take an
+ * named 'spendMoney' and 'earnMoney' that each take an
  * amount of money and add or subtract them to this
  * person's money.
  *
@@ -437,26 +436,26 @@ function favoritePlanet(planet) {
  *   earnMoney
  *
  */
- function Person(name, money, age, gender) {
+function Person(name, money, age, gender) {
   this.name = name;
   this.money = money;
   this.age = age;
   this.gender = gender;
- }
+}
 
- Person.prototype.spendMoney = function(money) {
+Person.prototype.spendMoney = function(money) {
   return this.money -= money;
- };
+};
 
- Person.prototype.earnMoney = function(money) {
+Person.prototype.earnMoney = function(money) {
   return this.money += money;
- };
+};
 
 /* Step 28
  *
- * Define a function named "purchaseLaptop" that takes
+ * Define a function named 'purchaseLaptop' that takes
  * a laptop as a parameter. If the laptop is valid as
- * defined in "laptopCosts" then return the cost as a string. Otherwise,
+ * defined in 'laptopCosts' then return the cost as a string. Otherwise,
  * return -1
  *
  * @param {String}
@@ -464,8 +463,8 @@ function favoritePlanet(planet) {
  *
  */
 function purchaseLaptop(laptop) {
-  if(laptopCosts.hasOwnProperty(laptop)) {
-    return laptopCosts[laptop] +'';
+  if (laptopCosts.hasOwnProperty(laptop)) {
+    return laptopCosts[laptop] + '';
   } else {
     return -1;
   }
@@ -473,10 +472,10 @@ function purchaseLaptop(laptop) {
 
 /* Step 29
  *
- * Define a function named "canTalkAbout" that takes
+ * Define a function named 'canTalkAbout' that takes
  * a club as a parameter. Return true if you can
  * talk about the club and false if the club passed
- * in has the same value as "club_name"
+ * in has the same value as 'club_name'
  *
  * @param {String}
  * @return {Bool}
@@ -492,13 +491,13 @@ function canTalkAbout(club) {
 
 /* Step 30
  *
- * Define a class named "Pen" with a property for
- * color and a class method named "write" that takes
+ * Define a class named 'Pen' with a property for
+ * color and a class method named 'write' that takes
  * a message string as a parameter and returns the
  * string back with the pen's color added to the
  * beginning of the string
  *
- * example: "{color}: {Message passed in}"
+ * example: '{color}: {Message passed in}'
  *
  * class
  *   Pen
@@ -520,14 +519,14 @@ Pen.prototype.write = function(message) {
 
 /* Step 31
  *
- * Define a class named "Garden" with a property for
+ * Define a class named 'Garden' with a property for
  * the number of plants and whether it was recently
  * watered.
  *
- * Define a class method named "water" which
+ * Define a class method named 'water' which
  * sets the recently watered property to true
  *
- * Defined a class method named "grow" which adds a plant to
+ * Defined a class method named 'grow' which adds a plant to
  * the garden if it was recently watered and exhausts the water.
  * If this method is called and the 'isWatered' property is
  * false, it should return false;
@@ -563,10 +562,10 @@ Garden.prototype.grow = function() {
 
 /* Step 32
  *
- * Define a class named "SolarSystem" with a property
- * "planets" that is initialized as an empty array. Add
- * a method "addPlanet" that adds a planet to the list
- * and a method "removePlanet" that removes a planet.
+ * Define a class named 'SolarSystem' with a property
+ * 'planets' that is initialized as an empty array. Add
+ * a method 'addPlanet' that adds a planet to the list
+ * and a method 'removePlanet' that removes a planet.
  *
  * class
  *   SolarSystem
@@ -590,24 +589,24 @@ SolarSystem.prototype.removePlanet = function(planet) {
 
 /* Step 33
  *
- * Define a class named "PrincessLeia" that is a subclass of "Person"
- * with properties "name," "money," "age," "gender," and
- * "isInTrouble"(initialized as null)
+ * Define a class named 'PrincessLeia' that is a subclass of 'Person'
+ * with properties 'name,' 'money,' 'age,' 'gender,' and
+ * 'isInTrouble'(initialized as null)
  *
- * Add a method "shootsGun" that returns a message
- * "Leia shoots her gun wildly"
+ * Add a method 'shootsGun' that returns a message
+ * 'Leia shoots her gun wildly'
  * and sets the isInTrouble property to FALSE
  *
- * Add a method "getsInTrouble" that returns a message
- * "Help me Obi-wan Kenobi, you're my only hope"
+ * Add a method 'getsInTrouble' that returns a message
+ * 'Help me Obi-wan Kenobi, you're my only hope'
  * and sets the property 'isInTroube' to TRUE
  *
- * Add a method "marries" that takes a prospective
- * love interest and returns true for "Han Solo" or false for anyone
+ * Add a method 'marries' that takes a prospective
+ * love interest and returns true for 'Han Solo' or false for anyone
  * else.
  *
- * In the 'marries' method - Add a message of disapproval for "Luke Skywalker"
- * "Gross!"
+ * In the 'marries' method - Add a message of disapproval for 'Luke Skywalker'
+ * 'Gross!'
  *
  *
  * class
@@ -625,20 +624,20 @@ function PrincessLeia(name, money, age, gender, isInTrouble) {
   this.isInTrouble = null;
 }
 PrincessLeia.prototype = Object.create(Person.prototype, {
-  constructor: {
-    value: Person
+  constructor : {
+    value : Person
   }
 });
 PrincessLeia.prototype.shootsGun = function() {
   this.isInTrouble = false;
   return 'Leia shoots her gun wildly';
-};;
+};
 PrincessLeia.prototype.getsInTrouble = function() {
   this.isInTrouble = true;
   return 'Help me Obi-wan Kenobi, you\'re my only hope';
 };
 PrincessLeia.prototype.marries = function(name) {
-  if(name === 'Han Solo') {
+  if (name === 'Han Solo') {
     return true;
   } else {
     return 'Gross!';
@@ -649,8 +648,8 @@ PrincessLeia.prototype.marries = function(name) {
 
 /* Step 34
  *
- * Define a class named "Stapler" with properties "color"
- * and "maxPapers". Add a method "staplePapers" that accepts a
+ * Define a class named 'Stapler' with properties 'color'
+ * and 'maxPapers'. Add a method 'staplePapers' that accepts a
  * number of papers as a parameter and returns true if the
  * papers are less than or equal to the papers and false
  * if there are too many papers to staple.
@@ -669,7 +668,7 @@ function Stapler(color, maxPapers) {
   this.maxPapers = maxPapers;
 }
 Stapler.prototype.staplePapers = function(paper) {
-  if(paper <= this.maxPapers) {
+  if (paper <= this.maxPapers) {
     return true;
   } else {
     return false;
@@ -678,9 +677,9 @@ Stapler.prototype.staplePapers = function(paper) {
 
 /* Step 35
  *
- * Define a class named "Scientist" that extends the Person Class that takes
+ * Define a class named 'Scientist' that extends the Person Class that takes
  * name, money, age, and gender as well as new instance properties
- * "disciplines" and "discoveries" which initializes as empty arrays.
+ * 'disciplines' and 'discoveries' which initializes as empty arrays.
  *
  * Add a method named 'addDiscipline' that takes a string as an argument and
  * adds it to the discipline property. Return the value of the discipline property
@@ -694,14 +693,14 @@ Stapler.prototype.staplePapers = function(paper) {
  * property as a String made up of all the elements found see below
  *
  * examples:
- * ["Gravity"] will be returned as:
- * "I discovered Gravity."
+ * ['Gravity'] will be returned as:
+ * 'I discovered Gravity.'
  *
- * ["Gravity", "Theory of Relativity"] will be returned as:
- * "I discovered Gravity and Theory of Relativity."
+ * ['Gravity', 'Theory of Relativity'] will be returned as:
+ * 'I discovered Gravity and Theory of Relativity.'
  *
- * ["Gravity", "Theory of Relativity", "Jesus Christ"] will be returned as:
- *       "I discovered Gravity, Theory of Relativity, and Jesus Christ."
+ * ['Gravity', 'Theory of Relativity', 'Jesus Christ'] will be returned as:
+ *       'I discovered Gravity, Theory of Relativity, and Jesus Christ.'
  *
  * class
  *   Scientist
@@ -720,8 +719,8 @@ function Scientist(name, money, age, gender, disciplines, discoveries) {
   this.discoveries = [];
 }
 Scientist.prototype = Object.create(Person.prototype, {
-  constructor: {
-    value: Person
+  constructor : {
+    value : Person
   }
 });
 
@@ -731,7 +730,7 @@ Scientist.prototype.addDiscipline = function(discipline) {
 };
 
 Scientist.prototype.checkDiscipline = function(discipline) {
-  if(this.disciplines.indexOf(discipline) !== -1) {
+  if (this.disciplines.indexOf(discipline) !== -1) {
     return true;
   } else {
     return false;
@@ -750,11 +749,11 @@ Scientist.prototype.addDiscovery = function(discoveries) {
 };
 /* Step 36
  *
- * Define a class named "BankAccount" that has properties
- * "balance" and "owner." Add a method "withdraw" that allows
+ * Define a class named 'BankAccount' that has properties
+ * 'balance' and 'owner.' Add a method 'withdraw' that allows
  * the owner to remove money from the account and add it to
- * their Person object, "deposit" that lets a Person spend
- * money to increase their balance, and "rob" that allows
+ * their Person object, 'deposit' that lets a Person spend
+ * money to increase their balance, and 'rob' that allows
  * any Person object to take money from the bank account.
  *
  * class
@@ -956,7 +955,7 @@ function Animal(species, gender) {
 function Vehicle(make, model) {
   this.make = make;
   this.model = model;
-};
+}
 
 /**
  * Step 52
@@ -967,8 +966,8 @@ function Vehicle(make, model) {
  * value of the sides property to null.
  *
  */
-function Shape(sides){
-  if(sides >= 3) {
+function Shape(sides) {
+  if (sides >= 3) {
     this.sides = sides;
   } else {
     this.sides = null;
@@ -1097,7 +1096,7 @@ var breakfast = new Meal(['cereal', 'milk']);
 var dinner = new Meal(['fish', 'vegetables']);
 
 
- /* Steps 81 to 90
+/* Steps 81 to 90
  *
  * Create methods
  *
@@ -1112,16 +1111,16 @@ var dinner = new Meal(['fish', 'vegetables']);
  * return the string indicated below.
  *
  *            this.species =>
- *                "Fish"   => false
- *                "Monkey" => true
- *                "Bird"   => true
- *       Any other species => "Could not determine if warm-blooded"
+ *                'Fish'   => false
+ *                'Monkey' => true
+ *                'Bird'   => true
+ *       Any other species => 'Could not determine if warm-blooded'
  *
  */
 Animal.prototype.isWarmBlooded = function() {
-  if(this.species === 'Monkey' || this.species === 'Bird') {
+  if (this.species === 'Monkey' || this.species === 'Bird') {
     return true;
-  } else if(this.species === 'Fish') {
+  } else if (this.species === 'Fish') {
     return false;
   } else {
     return 'Could not determine if warm-blooded';
@@ -1132,32 +1131,32 @@ Animal.prototype.isWarmBlooded = function() {
  *
  * Declare a Vehicle method called drive that accepts a parameter
  * called streetName.  If streetName is a string and is not empty,
- * return "Driving on {streetName}", else return "Driving forward".
+ * return 'Driving on {streetName}', else return 'Driving forward'.
  *
  */
 Vehicle.prototype.drive = function(streetName) {
   if (typeof streetName === 'string' && streetName.length > 0) {
     return 'Driving on ' + streetName;
   } else {
-    return 'Driving forward'
+    return 'Driving forward';
   }
 };
 
- /* Step 83
+/* Step 83
  *
  * Declare a Shape method called getType that returns a string
  * containing the type of shape based on the sides property.
  *
  *       this.sides =>
- *                3 => "triangle"
- *                4 => "quadrilateral"
- *                5 => "pentagon"
- *                6 => "hexagon"
- *                7 => "heptagon"
- *                8 => "octagon"
- *                9 => "nonagon"
- *               10 => "decagon"
- * Any other number => "Could not determine type"
+ *                3 => 'triangle'
+ *                4 => 'quadrilateral'
+ *                5 => 'pentagon'
+ *                6 => 'hexagon'
+ *                7 => 'heptagon'
+ *                8 => 'octagon'
+ *                9 => 'nonagon'
+ *               10 => 'decagon'
+ * Any other number => 'Could not determine type'
  *
  */
 Shape.prototype.getType = function() {
@@ -1191,7 +1190,7 @@ Shape.prototype.getType = function() {
  *
  */
 Box.prototype.openBox = function() {
-  if(!this.isOpen) {
+  if (!this.isOpen) {
     this.isOpen = true;
     return true;
   } else {
@@ -1199,7 +1198,7 @@ Box.prototype.openBox = function() {
   }
 };
 
- /* Step 85
+/* Step 85
  *
  * Declare a Door method called openClose that opens the door
  * if it is already closed, or closes the door if it is already open.
@@ -1219,14 +1218,14 @@ Door.prototype.openClose = function() {
 /* Step 86
  *
  * Declare a Shoe method called findShoes that returns a string containing
- * the color and size of the shoe ("Found red shoes of size 7").
+ * the color and size of the shoe ('Found red shoes of size 7').
  *
  */
 Shoe.prototype.findShoes = function() {
   return 'Found ' + this.color + ' shoes of size ' + this.size;
 };
 
- /* Step 87
+/* Step 87
  *
  * Declare a House method called isATallStory that accepts a
  * param number called storiesTooTall.
@@ -1235,17 +1234,17 @@ Shoe.prototype.findShoes = function() {
  *
  */
 House.prototype.isATallStory = function(storiesTooTall) {
-  if(this.stories >= storiesTooTall) {
+  if (this.stories >= storiesTooTall) {
     return true;
   } else {
     return false;
   }
 };
 
- /* Step 88
+/* Step 88
  *
  * Declare a Lightbulb method called flipSwitch that accepts a
- * param string called on.  If on is the string "on", set
+ * param string called on.  If on is the string 'on', set
  * the isOn property to true.  If on is any other string,
  * set isOn to false.
  * Return true if isOn is true, false otherwise.
@@ -1259,30 +1258,30 @@ Lightbulb.prototype.flipSwitch = function(on) {
     this.isOn = false;
     return false;
   }
-}
+};
 
- /* Step 89
+/* Step 89
  *
  * Declare a Cookie method called swipedByCookieMonster that accepts
- * a param called dayOfTheWeek.  If the cookie's flavor is "chocolate"
- * and the dayOfTheWeek is "Monday", return true.  Else return false.
+ * a param called dayOfTheWeek.  If the cookie's flavor is 'chocolate'
+ * and the dayOfTheWeek is 'Monday', return true.  Else return false.
  *
  */
 Cookie.prototype.swipedByCookieMonster = function(dayOfTheWeek) {
-  if(this.flavor === 'chocolate' && dayOfTheWeek === 'Monday') {
+  if (this.flavor === 'chocolate' && dayOfTheWeek === 'Monday') {
     return true;
   } else {
     return false;
   }
 };
 
- /* Step 90
+/* Step 90
  *
  * Declare a Meal method called containsJunkFood that returns true if
  * at least one of the items in the foods array is junk food, false otherwise.
  * To check if the food item is junk food, create an array called
- * junkFood containing the following strings: "chips", "soda", "ice cream",
- * "popcorn", and "candy".
+ * junkFood containing the following strings: 'chips', 'soda', 'ice cream',
+ * 'popcorn', and 'candy'.
  *
  * Use Array's indexOf method to check if the foods array contains junk food.
  * Note that if an element is not found in the array, indexOf returns -1.
@@ -1291,7 +1290,7 @@ Cookie.prototype.swipedByCookieMonster = function(dayOfTheWeek) {
  */
 Meal.prototype.containsJunkFood = function() {
   var junkFood = ['chips', 'soda', 'ice cream', 'popcorn', 'candy'];
-  for(var i = 0; i < junkFood.length; i++) {
+  for (var i = 0; i < junkFood.length; i++) {
     if (this.foods.indexOf(junkFood[i]) !== -1) {
       return true;
     } else {
@@ -1300,7 +1299,7 @@ Meal.prototype.containsJunkFood = function() {
   }
 };
 
- /* Steps 91 to 100
+/* Steps 91 to 100
  *
  * Call methods
  *
@@ -1329,7 +1328,7 @@ var streetDriving = civic.drive('Puali');
 var forwardDriving = forte.drive(8);
 
 
- /* Step 93
+/* Step 93
  *
  * Call the getType method on two Shape instances
  * and assign the values to each variable below.
@@ -1338,7 +1337,7 @@ var forwardDriving = forte.drive(8);
 var deca = new Shape(10);
 var decagon = deca.getType();
 
-var poly = new Shape(15)
+var poly = new Shape(15);
 var polygon = poly.getType(15);
 
 
@@ -1349,12 +1348,12 @@ var polygon = poly.getType(15);
  *
  */
 var pandora = new Box('secret', false);
-var openAClosedBox =pandora.openBox();
+var openAClosedBox = pandora.openBox();
 var box = new Box('apple', true);
 var closeAnOpenBox = box.openBox();
 
 
- /* Step 95
+/* Step 95
  *
  * Call the openClose method on two Door instances
  * and assign the values to each variable below.
@@ -1376,7 +1375,7 @@ var redShoesSize7 = rubySlippers.findShoes();
 var blackShoesSize10 = dressShoes.findShoes();
 
 
- /* Step 97
+/* Step 97
  *
  * Call the isATallStory method on two House instances
  * and assign the values to each variable below.
@@ -1387,7 +1386,7 @@ var farTooTallAStory = twoStory.isATallStory(1);
 var shortStory = singleStory.isATallStory();
 
 
- /* Step 98
+/* Step 98
  *
  * Call the switch method on two Lightbulb instances
  * and assign the values to each variable below.
@@ -1397,7 +1396,7 @@ var kitchenLightsOn = incandescent.flipSwitch('on');
 var porchLightsOff = halogen.flipSwitch();
 
 
- /* Step 99
+/* Step 99
  *
  * Call the swipedByCookieMonster method on two Cookie instances
  * and assign the values to each variable below.
@@ -1407,7 +1406,7 @@ var cookieMonsterPwns = chocolateChip.swipedByCookieMonster('Monday');
 var cookieMonsterBlocked = gingerbread.swipedByCookieMonster();
 
 
- /* Step 100
+/* Step 100
  *
  * Call the containsJunkFood method on two Meal instances
  * and assign the values to each variable below.
